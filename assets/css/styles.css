@@ -253,11 +253,110 @@ header nav li:last-child{
 
 
 /*--------------------
+ 	algoritm selection
+---------------------*/
+
+.alg{
+	background-color: #f7f7f7;
+}
+
+.alg .quote{
+	text-align: justify;
+	width: 80%;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.alg .author{
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.alg .author:last-child{
+    margin-bottom: 0;
+}
+
+@media (max-width: 1000px){
+
+	.alg .quote{
+		font-size: 20px;
+	}
+
+	.halg .author{
+	    font-size: 16px;
+	}
+
+}
+
+/*--------------------
+ 	constructor section
+---------------------*/
+
+.const{
+	background-color: #fff;
+}
+
+.img{
+	max-width: 70%;
+	
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.const .grid li{
+	padding: 0 30px;
+	flex-basis: 33%;
+	text-align: center;
+}
+
+
+.const .grid li h4{
+	color: #555;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.const .grid li p{
+    margin: 0;
+}
+
+@media (max-width: 1000px){
+
+	.const .grid li{
+		flex-basis: 70%;
+		margin-bottom: 65px;
+	}
+
+	.const .grid li:last-child{
+		margin-bottom: 0;
+	}
+
+}
+
+
+@media (max-width: 600px){
+
+	.const .grid li{
+		flex-basis: 100%;
+	}
+
+}
+
+
+
+
+
+
+/*--------------------
  	domain section
 ---------------------*/
 
 .domain{
-	background-color: #fff;
+	background-color: #f7f7f7;
 }
 
 .img{
@@ -314,7 +413,7 @@ header nav li:last-child{
 ----------------------*/
 
 .hosting{
-	background-color: #f7f7f7;
+	background-color: #fff;
 }
 
 .img{
@@ -371,7 +470,7 @@ header nav li:last-child{
 --------------------*/
 
 .htmlcss{
-	background-color: #fff;
+	background-color: #f7f7f7;
 }
 
 .htmlcss .quote{
@@ -405,9 +504,11 @@ header nav li:last-child{
 
 }
 
+
+
 /*--------------------
  	cms section
---------------------*/
+--------------------
 
 .cms{
 	background-color: #f7f7f7;
@@ -444,63 +545,7 @@ header nav li:last-child{
 
 }
 
-
-
-/*--------------------
- 	domain section
----------------------*/
-
-.const{
-	background-color: #fff;
-}
-
-.img{
-	max-width: 70%;
-	
-	text-align: center;
-	margin: 0 auto;
-	margin-bottom: 20px;
-}
-
-.const .grid li{
-	padding: 0 30px;
-	flex-basis: 33%;
-	text-align: center;
-}
-
-
-.const .grid li h4{
-	color: #555;
-    font-size: 28px;
-    margin-bottom: 25px;
-}
-
-.const .grid li p{
-    margin: 0;
-}
-
-@media (max-width: 1000px){
-
-	.const .grid li{
-		flex-basis: 70%;
-		margin-bottom: 65px;
-	}
-
-	.const .grid li:last-child{
-		margin-bottom: 0;
-	}
-
-}
-
-
-@media (max-width: 600px){
-
-	.const .grid li{
-		flex-basis: 100%;
-	}
-
-}
-
+*/
 
 
 
